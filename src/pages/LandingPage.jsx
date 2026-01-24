@@ -11,9 +11,7 @@ const LandingPage = () => {
 
   return (
     <div className={`${isDark ? "" : "bg-white"}`}>
-      <section id="home" className="min-h-screen">
-        <Navbar />
-      </section>
+      <section id="home" className="min-h-screen"></section>
       <section id="home" className="min-h-screen">
         <Hero />
       </section>
