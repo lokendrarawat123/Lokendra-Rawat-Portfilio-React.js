@@ -27,26 +27,26 @@ const Contact = () => {
     {
       icon: '📧',
       title: 'Email',
-      value: 'lokendra@example.com',
-      link: 'mailto:lokendra@example.com'
+      value: 'lokey973@gmail.com',
+      link: 'mailto:lokey973@gmail.com'
     },
     {
       icon: '📱',
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '+977 9826549379',
+      link: 'tel:+9779826549379'
     },
     {
       icon: '📍',
       title: 'Location',
-      value: 'New York, NY',
+      value: 'Nepalgunj, Nepal',
       link: '#'
     },
     {
       icon: '🔗',
       title: 'LinkedIn',
-      value: 'linkedin.com/in/lokendra',
-      link: 'https://linkedin.com/in/lokendra'
+      value: 'linkedin.com/in/lokendra-rawat973',
+      link: 'https://www.linkedin.com/in/lokendra-rawat973/'
     }
   ];
 
@@ -59,7 +59,7 @@ const Contact = () => {
             Get In <span className="text-blue-500">Touch</span>
           </h1>
           <p className={`text-xl ${isDark ? 'text-gray-300' : 'text-gray-700'} max-w-3xl mx-auto leading-relaxed`}>
-            Have a project in mind or just want to chat? I'd love to hear from you. Let's create something amazing together.
+            Have a project in mind or want to discuss opportunities? I'd love to hear from you. Let's create something amazing together.
           </p>
         </div>
       </section>

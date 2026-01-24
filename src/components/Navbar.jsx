@@ -52,7 +52,7 @@ const Navbar = () => {
           to="/"
           className={`text-xl font-bold tracking-wide ${isDark ? "text-white" : "text-black"}`}
         >
-          Lokendra<span className="text-blue-500">.</span>
+          Lokendra Rawat<span className="text-blue-500">.</span>
         </Link>
 
         <ul

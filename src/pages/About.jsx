@@ -4,17 +4,16 @@ const About = () => {
   const { isDark } = useTheme();
 
   const stats = [
-    { number: '50+', label: 'Projects Completed' },
-    { number: '3+', label: 'Years Experience' },
-    { number: '20+', label: 'Happy Clients' },
+    { number: '5+', label: 'Projects Completed' },
+    { number: '6+', label: 'Months Experience' },
+    { number: '3+', label: 'Happy Clients' },
     { number: '100%', label: 'Satisfaction Rate' }
   ];
 
   const timeline = [
-    { year: '2024', title: 'Senior Full Stack Developer', company: 'Tech Corp', description: 'Leading development of enterprise applications' },
-    { year: '2023', title: 'Full Stack Developer', company: 'StartupXYZ', description: 'Built scalable web applications from scratch' },
-    { year: '2022', title: 'Frontend Developer', company: 'WebAgency', description: 'Created responsive and interactive user interfaces' },
-    { year: '2021', title: 'Junior Developer', company: 'CodeStudio', description: 'Started my journey in web development' }
+    { year: '2024', title: 'Freelance Full Stack Developer', company: 'Self-Employed', description: 'Working on various web development projects and seeking new opportunities' },
+    { year: '2024', title: 'Full Stack Developer Intern', company: 'Next Infosis Tech', description: 'Developed professional dashboard using React & Tailwind CSS, created APIs using Node.js & Express' },
+    { year: '2023', title: 'Learning & Development', company: 'Self-Study', description: 'Focused on mastering React.js, Node.js, and full-stack development fundamentals' }
   ];
 
   return (
@@ -29,15 +28,17 @@ const About = () => {
                   About <span className="text-blue-500">Me</span>
                 </h1>
                 <p className={`text-xl ${isDark ? 'text-gray-300' : 'text-gray-700'} leading-relaxed`}>
-                  I'm a passionate full-stack developer who loves creating digital experiences that make a difference.
+                  I'm a passionate Full Stack Developer with 6 months of professional experience, specializing in React.js and Node.js development.
                 </p>
               </div>
               <div className="space-y-6">
                 <p className={`${isDark ? 'text-gray-400' : 'text-gray-600'} leading-relaxed`}>
-                  With over 3 years of experience in web development, I specialize in building modern, scalable applications using cutting-edge technologies. My journey started with a curiosity about how websites work, and it has evolved into a passion for creating seamless user experiences.
+                  During my internship at Next Infosis Tech, I developed professional dashboards using React and Tailwind CSS, 
+                  and created robust APIs using Node.js and Express. I'm passionate about creating efficient, user-friendly web solutions.
                 </p>
                 <p className={`${isDark ? 'text-gray-400' : 'text-gray-600'} leading-relaxed`}>
-                  I believe in writing clean, maintainable code and staying up-to-date with the latest industry trends. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.
+                  Currently working as a freelance developer while actively seeking new opportunities to contribute to innovative projects. 
+                  I believe in continuous learning and staying updated with the latest web development trends and technologies.
                 </p>
               </div>
             </div>

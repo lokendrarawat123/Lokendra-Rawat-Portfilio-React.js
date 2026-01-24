@@ -5,55 +5,55 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.',
+      title: 'Agan Sewa - Service Platform',
+      description: 'A comprehensive service platform connecting users with daily life services like electricians, plumbers, and other essential services. Built during internship at Next Infosis Tech.',
       image: '🛍️',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      technologies: ['React', 'Tailwind CSS', 'Node.js', 'MySQL'],
       liveUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/lokendrarawat123/aagansewa_internship',
       featured: true
     },
     {
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
+      title: 'Professional Dashboard',
+      description: 'A modern, responsive dashboard application built with React and Tailwind CSS. Features user management, data visualization, and real-time updates.',
       image: '📋',
-      technologies: ['React', 'Socket.io', 'Express', 'PostgreSQL'],
+      technologies: ['React', 'Tailwind CSS', 'Node.js', 'Express'],
       liveUrl: '#',
       githubUrl: '#',
       featured: true
-    },
-    {
-      title: 'Weather Dashboard',
-      description: 'A responsive weather application that provides current weather data and forecasts using external APIs with beautiful visualizations.',
-      image: '🌦️',
-      technologies: ['JavaScript', 'Chart.js', 'Weather API', 'CSS3'],
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: false
     },
     {
       title: 'Portfolio Website',
       description: 'A modern, responsive portfolio website built with React and Tailwind CSS, featuring dark/light mode and smooth animations.',
       image: '💼',
-      technologies: ['React', 'Tailwind CSS', 'Framer Motion', 'Vite'],
+      technologies: ['React', 'Tailwind CSS', 'JavaScript'],
       liveUrl: '#',
       githubUrl: '#',
       featured: false
     },
     {
-      title: 'Blog Platform',
-      description: 'A full-featured blog platform with content management, user authentication, and SEO optimization.',
-      image: '📝',
-      technologies: ['Next.js', 'Prisma', 'PostgreSQL', 'NextAuth'],
+      title: 'Task Management App',
+      description: 'A simple task management application with CRUD operations, built to practice React fundamentals and state management.',
+      image: '✅',
+      technologies: ['React', 'CSS', 'JavaScript'],
       liveUrl: '#',
       githubUrl: '#',
       featured: false
     },
     {
-      title: 'Chat Application',
-      description: 'Real-time chat application with private messaging, group chats, and file sharing capabilities.',
-      image: '💬',
-      technologies: ['React', 'Socket.io', 'Node.js', 'MongoDB'],
+      title: 'Weather App',
+      description: 'A responsive weather application that provides current weather data using external APIs with clean user interface.',
+      image: '🌦️',
+      technologies: ['JavaScript', 'HTML', 'CSS', 'Weather API'],
+      liveUrl: '#',
+      githubUrl: '#',
+      featured: false
+    },
+    {
+      title: 'Restaurant Website',
+      description: 'A static restaurant website with responsive design, showcasing menu items and restaurant information.',
+      image: '🍽️',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
       liveUrl: '#',
       githubUrl: '#',
       featured: false
@@ -72,7 +72,7 @@ const Projects = () => {
             My <span className="text-blue-500">Projects</span>
           </h1>
           <p className={`text-xl ${isDark ? 'text-gray-300' : 'text-gray-700'} max-w-3xl mx-auto leading-relaxed`}>
-            Here are some of the projects I've worked on. Each one represents a unique challenge and learning experience.
+            Here are some of the projects I've worked on during my learning journey and internship. Each represents growth and hands-on experience.
           </p>
         </div>
       </section>

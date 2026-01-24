@@ -7,34 +7,28 @@ const SkillsPage = () => {
     {
       title: "Frontend Development",
       skills: [
-        { name: "React", level: 90, icon: "⚛️" },
-        { name: "JavaScript", level: 95, icon: "📜" },
-        { name: "TypeScript", level: 85, icon: "🔷" },
-        { name: "HTML/CSS", level: 95, icon: "🎨" },
-        { name: "Tailwind CSS", level: 90, icon: "🌊" },
-        { name: "Next.js", level: 80, icon: "▶️" },
+        { name: "React", level: 50, icon: "⚛️" },
+        { name: "JavaScript", level: 55, icon: "📜" },
+        { name: "HTML", level: 80, icon: "🎨" },
+        { name: "CSS", level: 60, icon: "🎨" },
+        { name: "Tailwind CSS", level: 70, icon: "🌊" },
       ],
     },
     {
       title: "Backend Development",
       skills: [
-        { name: "Node.js", level: 85, icon: "🟢" },
-        { name: "Express.js", level: 80, icon: "🚀" },
-        { name: "MongoDB", level: 75, icon: "🍃" },
-        { name: "PostgreSQL", level: 70, icon: "📊" },
-        { name: "REST APIs", level: 90, icon: "🔗" },
-        { name: "GraphQL", level: 65, icon: "🔍" },
+        { name: "Node.js", level: 50, icon: "🟢" },
+        { name: "Express.js", level: 30, icon: "🚀" },
+        { name: "MySQL", level: 60, icon: "📊" },
+        { name: "REST APIs", level: 45, icon: "🔗" },
       ],
     },
     {
       title: "Tools & Technologies",
       skills: [
-        { name: "Git", level: 90, icon: "🌳" },
-        { name: "Docker", level: 70, icon: "📦" },
-        { name: "AWS", level: 65, icon: "☁️" },
-        { name: "Figma", level: 80, icon: "🎨" },
-        { name: "VS Code", level: 95, icon: "💻" },
-        { name: "Webpack", level: 75, icon: "📦" },
+        { name: "VS Code", level: 80, icon: "💻" },
+        { name: "Git", level: 30, icon: "🌳" },
+        { name: "GitHub", level: 30, icon: "📦" },
       ],
     },
   ];
@@ -119,9 +113,8 @@ const SkillsPage = () => {
             className={`text-lg ${isDark ? "text-gray-300" : "text-gray-700"} leading-relaxed`}
           >
             Technology evolves rapidly, and I'm committed to continuous
-            learning. I regularly explore new frameworks, attend tech
-            conferences, and work on side projects to stay current with industry
-            trends.
+            learning. I regularly practice coding, work on personal projects,
+            and stay current with the latest web development trends and best practices.
           </p>
           <div className="flex flex-wrap justify-center gap-4 mt-8">
             {["Learning", "Experimenting", "Building", "Growing"].map(
