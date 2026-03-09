@@ -1,18 +1,18 @@
 import ImageSlider from "./ImageSlider";
-import loku1 from "../assets/img/loku1.jpeg";
-import loku2 from "../assets/img/loku2.jpeg";
-import loku3 from "../assets/img/loku3.jpeg";
+import loku1 from "../assets/img/loku.jpeg";
+import loku2 from "../assets/img/lokendra.jpg";
+import loku3 from "../assets/img/loku2.jpeg";
 
 const Hero = () => {
   const images = [loku1, loku2, loku3];
 
   return (
-    <section className="min-h-screen flex items-center pt-20 bg-linear-to-br from-slate-900 via-purple-900 to-slate-900">
+    <section className="min-h-screen flex items-center  pt-20 bg-linear-to-br from-slate-900 via-purple-900 to-slate-900">
       <div className="container mx-auto px-6 py-20">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 ml-10 gap-12 items-center">
           {/* Left Content */}
           <div className="space-y-6">
-            <div className="inline-block px-4 py-2 bg-blue-500/10 border border-blue-500/20 rounded-full">
+            <div className="inline-block  px-4 py-2 bg-blue-500/10 border border-blue-500/20 rounded-full">
               <span className="text-blue-400 text-sm font-medium">
                 👋 Welcome to my portfolio
               </span>
@@ -51,16 +51,28 @@ const Hero = () => {
 
             <div className="flex gap-4 md:gap-8 pt-8">
               <div className="text-center">
-                <h3 className="text-2xl md:text-3xl font-bold text-blue-400">6+</h3>
-                <p className="text-gray-400 text-xs md:text-sm">Months Experience</p>
+                <h3 className="text-2xl md:text-3xl font-bold text-blue-400">
+                  6+
+                </h3>
+                <p className="text-gray-400 text-xs md:text-sm">
+                  Months Experience
+                </p>
               </div>
               <div className="text-center">
-                <h3 className="text-2xl md:text-3xl font-bold text-purple-400">5+</h3>
-                <p className="text-gray-400 text-xs md:text-sm">Projects Done</p>
+                <h3 className="text-2xl md:text-3xl font-bold text-purple-400">
+                  5+
+                </h3>
+                <p className="text-gray-400 text-xs md:text-sm">
+                  Projects Done
+                </p>
               </div>
               <div className="text-center">
-                <h3 className="text-2xl md:text-3xl font-bold text-pink-400">3+</h3>
-                <p className="text-gray-400 text-xs md:text-sm">Happy Clients</p>
+                <h3 className="text-2xl md:text-3xl font-bold text-pink-400">
+                  3+
+                </h3>
+                <p className="text-gray-400 text-xs md:text-sm">
+                  Happy Clients
+                </p>
               </div>
             </div>
           </div>
